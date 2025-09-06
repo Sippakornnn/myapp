@@ -8,15 +8,13 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  // state variables
-  String username = '';
-  String password = '';
   String message = '';
+  TextEditingController tcName = TextEditingController();
+  TextEditingController tcPass = TextEditingController();
 
-  //function
   void checkLogin() {
     setState(() {
-      if (username != 'admin' || password != '1234') {
+      if (tcName.text != 'admin' || tcPass.text != '1234') {
         message = 'Wrong username or password';
       } else {
         message = 'Welcome admin';
@@ -44,18 +42,14 @@ class _LoginState extends State<Login> {
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: TextField(
               decoration: InputDecoration(hintText: 'Username'),
-              onChanged: (String value) {
-                username = value;
-              },
+              controller: tcName,
             ),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: TextField(
               decoration: InputDecoration(hintText: 'Password'),
-              onChanged: (String value) {
-                password = value;
-              },
+              controller: tcPass,
               obscureText: true,
             ),
           ),
@@ -69,7 +63,6 @@ class _LoginState extends State<Login> {
             child: Text("Login"),
           ),
           SizedBox(height: 10),
-
           Text(message, style: TextStyle(fontSize: 16, color: Colors.red)),
         ],
       ),
