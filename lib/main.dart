@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/week05/design1.dart';
+import 'package:myapp/week05/design2.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Design1()
+      home: Design2()
     ),
   );
 }
