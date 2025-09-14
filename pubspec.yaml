@@ -79,9 +79,9 @@ flutter:
         - asset: fonts/IndieFlower-Regular.ttf
         # - asset: fonts/Schyler-Italic.ttf
         #   style: italic
-    - family: ThaiSansNeue
+    - family: Sevillana
       fonts:
-        - asset: fonts/ThaiSansNeue-Regular.ttf
+        - asset: fonts/Sevillana-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
