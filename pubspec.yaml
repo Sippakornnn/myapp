@@ -64,6 +64,12 @@ flutter:
     - assets/images/clock-tower.jpg
     - assets/images/landscape.png
     - assets/images/salad.jpg
+    - assets/images/broccoli.png
+    - assets/images/carrot.png
+    - assets/images/corn.png
+    - assets/images/Farm.jpg
+    - assets/images/pumpkin.png
+    - assets/images/tomato.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

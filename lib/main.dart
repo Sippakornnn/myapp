@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/week06/tourist.dart';
+import 'farm6631501171.dart';
 
 void main() {
-  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Tourist()));
+  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Farm()));
 }
