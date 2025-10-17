@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/week08/scrollview_demo.dart';
+import 'package:myapp/week08/tab_demo.dart';
 
 void main() {
   runApp(
     MaterialApp(
-      home: ScrollviewDemo(),debugShowCheckedModeBanner: false,
+      home: TabDemo(),debugShowCheckedModeBanner: false,
     ),
   );
 }
