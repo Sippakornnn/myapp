@@ -44,7 +44,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+<<<<<<< HEAD
 # etc.
+=======
+#etc.
+>>>>>>> week05
 linux/
 macos/
 test/
