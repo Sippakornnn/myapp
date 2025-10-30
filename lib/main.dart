@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:myapp/week05/HW/numguess.dart';
 void main() {
   runApp(
@@ -20,6 +21,12 @@ import 'package:myapp/week07/hw/coffee_shop_extended.dart';
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: CoffeeShopExtended()));
 >>>>>>> week07
+=======
+import 'package:myapp/week08/page1.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(), debugShowCheckedModeBanner: false));
+>>>>>>> week08
 }
 
 
