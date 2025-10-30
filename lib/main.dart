@@ -1,41 +1,8 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-import 'package:myapp/week05/HW/numguess.dart';
-void main() {
-  runApp(
-    MaterialApp(
-      home: NumGuess()
-    ),
-  );
-=======
-import 'week06/LabTest/farm6631501171.dart';
-
-void main() {
-  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Farm()));
->>>>>>> week06
-=======
-import 'package:myapp/week07/hw/coffee_shop_extended.dart';
-
-void main() {
-  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: CoffeeShopExtended()));
->>>>>>> week07
-=======
-import 'package:myapp/week08/page1.dart';
-
-void main() {
-  runApp(MaterialApp(home: Page1(), debugShowCheckedModeBanner: false));
->>>>>>> week08
-=======
 import 'package:myapp/week09/listview_demo.dart';
 
 void main() {
-  runApp(MaterialApp(home: ListviewDemo(), debugShowCheckedModeBanner: false));
->>>>>>> week09
+  runApp(
+    MaterialApp(debugShowCheckedModeBanner: false, home: ListviewDemo()),
+  );
 }
-
-
-
-
